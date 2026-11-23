@@ -1,0 +1,32 @@
+# Secrets : ne JAMAIS versionner les clés d'API
+.env
+
+
+
+# Environnement Python et caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Données d'exécution : PDF protégés par le droit d'auteur, traces, décisions, caches LLM
+runs/
+
+# PDF et fichiers temporaires ou de sauvegarde
+*.pdf
+*.part
+*.tmp
+*.bak
+*.log
+
+# Éditeur et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
