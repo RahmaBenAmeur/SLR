@@ -16,7 +16,7 @@ build/
 dist/
 
 # Données d'exécution : PDF protégés par le droit d'auteur, traces, décisions, caches LLM
-runs/
+
 
 # PDF et fichiers temporaires ou de sauvegarde
 *.pdf
